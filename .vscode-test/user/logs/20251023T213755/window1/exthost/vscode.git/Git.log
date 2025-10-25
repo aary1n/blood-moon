@@ -1,0 +1,85 @@
+2025-10-23 21:37:56.668 [info] [main] Log level: Info
+2025-10-23 21:37:56.668 [info] [main] Validating found git in: "C:\Program Files\Git\cmd\git.exe"
+2025-10-23 21:37:56.690 [info] [main] Using git "2.51.0.windows.2" from "C:\Program Files\Git\cmd\git.exe"
+2025-10-23 21:37:56.690 [info] [Model][doInitialScan] Initial repository scan started
+2025-10-23 21:37:56.735 [info] > git rev-parse --show-toplevel [39ms]
+2025-10-23 21:37:56.735 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-10-23 21:37:56.775 [info] > git rev-parse --show-toplevel [28ms]
+2025-10-23 21:37:56.817 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [39ms]
+2025-10-23 21:37:56.823 [info] [Model][openRepository] Opened repository (path): c:\Users\Aaryan Sharif\Documents\== Projects ==\apps\Facemorph ML\facemorph-core
+2025-10-23 21:37:56.823 [info] [Model][openRepository] Opened repository (real path): c:\Users\Aaryan Sharif\Documents\== Projects ==\apps\Facemorph ML\facemorph-core
+2025-10-23 21:37:56.823 [info] [Model][openRepository] Opened repository (kind): repository
+2025-10-23 21:37:56.860 [info] > git config --get commit.template [33ms]
+2025-10-23 21:37:56.861 [info] > git rev-parse --show-toplevel [31ms]
+2025-10-23 21:37:56.861 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-10-23 21:37:56.863 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-10-23 21:37:56.868 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [35ms]
+2025-10-23 21:37:56.904 [info] > git status -z -uall [32ms]
+2025-10-23 21:37:56.904 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [30ms]
+2025-10-23 21:37:56.945 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [31ms]
+2025-10-23 21:37:56.949 [info] > git config --get commit.template [30ms]
+2025-10-23 21:37:56.950 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [28ms]
+2025-10-23 21:37:56.976 [info] > git config --get --local branch.main.vscode-merge-base [28ms]
+2025-10-23 21:37:56.981 [info] > git status -z -uall [29ms]
+2025-10-23 21:37:56.982 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [27ms]
+2025-10-23 21:37:57.006 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/origin/main refs/remotes/origin/main [27ms]
+2025-10-23 21:37:57.038 [info] > git merge-base refs/heads/main refs/remotes/origin/main [27ms]
+2025-10-23 21:37:57.042 [info] > git merge-base refs/heads/main refs/remotes/origin/main [33ms]
+2025-10-23 21:37:57.071 [info] > git diff --name-status -z --diff-filter=ADMR 1d1f4681de8d7f70d79cef25400be8bb70064d08...refs/remotes/origin/main [28ms]
+2025-10-23 21:37:57.071 [info] > git diff --name-status -z --diff-filter=ADMR 1d1f4681de8d7f70d79cef25400be8bb70064d08...refs/remotes/origin/main [30ms]
+2025-10-23 21:37:57.174 [info] > git show --textconv :node_modules/typescript/ThirdPartyNoticeText.txt [28ms]
+2025-10-23 21:37:57.177 [info] > git ls-files --stage -- node_modules/typescript/ThirdPartyNoticeText.txt [28ms]
+2025-10-23 21:37:57.203 [info] > git hash-object -t tree /dev/null [27ms]
+2025-10-23 21:37:57.203 [warning] [GitFileSystemProvider][readFile] File not found - git:/c%3A/Users/Aaryan%20Sharif/Documents/%3D%3D%20Projects%20%3D%3D/apps/Facemorph%20ML/facemorph-core/node_modules/typescript/ThirdPartyNoticeText.txt.git?%7B%22path%22%3A%22c%3A%5C%5CUsers%5C%5CAaryan%20Sharif%5C%5CDocuments%5C%5C%3D%3D%20Projects%20%3D%3D%5C%5Capps%5C%5CFacemorph%20ML%5C%5Cfacemorph-core%5C%5Cnode_modules%5C%5Ctypescript%5C%5CThirdPartyNoticeText.txt%22%2C%22ref%22%3A%22%22%7D
+2025-10-23 21:37:57.204 [info] > git hash-object -t tree /dev/null [26ms]
+2025-10-23 21:37:57.204 [warning] [GitFileSystemProvider][stat] File not found - git:/c%3A/Users/Aaryan%20Sharif/Documents/%3D%3D%20Projects%20%3D%3D/apps/Facemorph%20ML/facemorph-core/node_modules/typescript/ThirdPartyNoticeText.txt.git?%7B%22path%22%3A%22c%3A%5C%5CUsers%5C%5CAaryan%20Sharif%5C%5CDocuments%5C%5C%3D%3D%20Projects%20%3D%3D%5C%5Capps%5C%5CFacemorph%20ML%5C%5Cfacemorph-core%5C%5Cnode_modules%5C%5Ctypescript%5C%5CThirdPartyNoticeText.txt%22%2C%22ref%22%3A%22%22%7D
+2025-10-23 21:37:57.370 [info] > git check-ignore -v -z --stdin [28ms]
+2025-10-23 21:37:58.665 [info] > git rev-parse --show-toplevel [31ms]
+2025-10-23 21:37:58.665 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-10-23 21:38:01.100 [info] > git ls-files --stage -- package-lock.json [27ms]
+2025-10-23 21:38:01.103 [info] > git show --textconv :package-lock.json [33ms]
+2025-10-23 21:38:01.130 [info] > git cat-file -s 8faf8bc44b366f6b95488ba89bb5e56d4950d5b0 [28ms]
+2025-10-23 21:38:01.168 [info] > git blame --root --incremental 1d1f4681de8d7f70d79cef25400be8bb70064d08 -- package-lock.json [29ms]
+2025-10-23 21:38:01.845 [info] > git ls-files --stage -- LICENSE [27ms]
+2025-10-23 21:38:01.847 [info] > git show --textconv :LICENSE [32ms]
+2025-10-23 21:38:01.874 [info] > git cat-file -s bcdb3369ee69afa90b688e1b451f2272a44eb664 [27ms]
+2025-10-23 21:38:02.379 [info] > git ls-files --stage -- .gitignore [26ms]
+2025-10-23 21:38:02.382 [info] > git show --textconv :.gitignore [32ms]
+2025-10-23 21:38:02.408 [info] > git cat-file -s eed89d145d137dd7fd7fd17d2d5d8ecdd18b645b [26ms]
+2025-10-23 21:38:03.020 [info] > git show --textconv :node_modules/.package-lock.json [31ms]
+2025-10-23 21:38:03.021 [warning] [GitFileSystemProvider][readFile] File not found - git:/c%3A/Users/Aaryan%20Sharif/Documents/%3D%3D%20Projects%20%3D%3D/apps/Facemorph%20ML/facemorph-core/node_modules/.package-lock.json.git?%7B%22path%22%3A%22c%3A%5C%5CUsers%5C%5CAaryan%20Sharif%5C%5CDocuments%5C%5C%3D%3D%20Projects%20%3D%3D%5C%5Capps%5C%5CFacemorph%20ML%5C%5Cfacemorph-core%5C%5Cnode_modules%5C%5C.package-lock.json%22%2C%22ref%22%3A%22%22%7D
+2025-10-23 21:38:03.021 [info] > git ls-files --stage -- node_modules/.package-lock.json [29ms]
+2025-10-23 21:38:03.022 [warning] [GitFileSystemProvider][stat] File not found - git:/c%3A/Users/Aaryan%20Sharif/Documents/%3D%3D%20Projects%20%3D%3D/apps/Facemorph%20ML/facemorph-core/node_modules/.package-lock.json.git?%7B%22path%22%3A%22c%3A%5C%5CUsers%5C%5CAaryan%20Sharif%5C%5CDocuments%5C%5C%3D%3D%20Projects%20%3D%3D%5C%5Capps%5C%5CFacemorph%20ML%5C%5Cfacemorph-core%5C%5Cnode_modules%5C%5C.package-lock.json%22%2C%22ref%22%3A%22%22%7D
+2025-10-23 21:38:18.240 [info] [main] Log level: Info
+2025-10-23 21:38:18.240 [info] [main] Validating found git in: "C:\Program Files\Git\cmd\git.exe"
+2025-10-23 21:38:18.267 [info] [main] Using git "2.51.0.windows.2" from "C:\Program Files\Git\cmd\git.exe"
+2025-10-23 21:38:18.267 [info] [Model][doInitialScan] Initial repository scan started
+2025-10-23 21:38:18.300 [info] > git rev-parse --show-toplevel [26ms]
+2025-10-23 21:38:18.328 [info] > git rev-parse --show-toplevel [26ms]
+2025-10-23 21:38:18.356 [info] > git rev-parse --show-toplevel [25ms]
+2025-10-23 21:38:18.384 [info] > git rev-parse --show-toplevel [26ms]
+2025-10-23 21:38:18.414 [info] > git rev-parse --show-toplevel [27ms]
+2025-10-23 21:38:18.443 [info] > git rev-parse --show-toplevel [27ms]
+2025-10-23 21:38:18.471 [info] > git rev-parse --show-toplevel [25ms]
+2025-10-23 21:38:18.499 [info] > git rev-parse --show-toplevel [26ms]
+2025-10-23 21:38:18.529 [info] > git rev-parse --show-toplevel [28ms]
+2025-10-23 21:38:18.559 [info] > git rev-parse --show-toplevel [28ms]
+2025-10-23 21:38:18.590 [info] > git rev-parse --show-toplevel [29ms]
+2025-10-23 21:38:18.592 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (1), unsafe repositories (0)
+2025-10-23 21:38:18.624 [info] > git rev-parse --show-toplevel [30ms]
+2025-10-23 21:38:18.977 [info] > git rev-parse --show-toplevel [32ms]
+2025-10-23 21:38:19.318 [info] > git rev-parse --show-toplevel [30ms]
+2025-10-23 21:38:20.038 [info] > git rev-parse --show-toplevel [38ms]
+2025-10-23 21:38:20.549 [info] > git rev-parse --show-toplevel [29ms]
+2025-10-23 21:38:21.124 [info] > git rev-parse --show-toplevel [28ms]
+2025-10-23 21:38:21.634 [info] > git rev-parse --show-toplevel [36ms]
+2025-10-23 21:38:22.093 [info] > git rev-parse --show-toplevel [27ms]
+2025-10-23 21:38:23.833 [info] > git rev-parse --show-toplevel [73ms]
+2025-10-23 21:38:24.479 [info] > git rev-parse --show-toplevel [33ms]
+2025-10-23 21:38:24.895 [info] > git rev-parse --show-toplevel [28ms]
+2025-10-23 21:38:25.639 [info] > git rev-parse --show-toplevel [31ms]
+2025-10-23 21:38:28.580 [info] > git rev-parse --show-toplevel [29ms]
+2025-10-23 21:38:30.451 [info] > git rev-parse --show-toplevel [39ms]
+2025-10-23 21:38:36.477 [info] > git rev-parse --show-toplevel [28ms]
+2025-10-23 21:38:47.320 [info] > git rev-parse --show-toplevel [29ms]
+2025-10-23 21:38:51.485 [info] > git rev-parse --show-toplevel [27ms]

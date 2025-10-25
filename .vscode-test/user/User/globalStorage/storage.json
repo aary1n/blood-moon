@@ -1,0 +1,51 @@
+{
+    "telemetry.machineId": "8eeeec6826ccc470b87622bf16b5de59c21b072731f8b27703529e6a02ccd333",
+    "telemetry.sqmId": "{A8CB3346-B51C-4C29-BA6E-476430336643}",
+    "telemetry.devDeviceId": "c31e7c06-8025-4c58-b200-4c62b6fd4260",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [],
+        "emptyWindows": []
+    },
+    "windowControlHeight": 35,
+    "theme": "vs-dark",
+    "themeBackground": "#1e1820",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#f4f2f5",
+            "background": "#1e1820",
+            "editorBackground": "#1e1820",
+            "titleBarBackground": "#1e1820",
+            "activityBarBackground": "#231c26",
+            "sideBarBackground": "#231c26",
+            "sideBarBorder": "#322733",
+            "statusBarBackground": "#1e1820",
+            "statusBarNoFolderBackground": "#1e1820"
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///c%3A/Users/Aaryan%20Sharif/Documents/%3D%3D%20Projects%20%3D%3D/academia/Magnetic%20Dipole%20Sim/magnetsim",
+            "uiState": {
+                "mode": 0,
+                "x": 254,
+                "y": 134,
+                "width": 1202,
+                "height": 802
+            }
+        },
+        "lastPluginDevelopmentHostWindow": {
+            "folder": "file:///c%3A/Users/Aaryan%20Sharif/Documents/%3D%3D%20Projects%20%3D%3D/academia/Magnetic%20Dipole%20Sim/magnetsim",
+            "uiState": {
+                "mode": 0,
+                "x": 254,
+                "y": 134,
+                "width": 1202,
+                "height": 802
+            }
+        },
+        "openedWindows": []
+    }
+}

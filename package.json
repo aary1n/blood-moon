@@ -1,0 +1,23 @@
+{
+  "name": "blood-moon",
+  "displayName": "Blood Moon",
+  "description": "The blood moon is rising...",
+  "version": "0.0.10",
+  "publisher": "aary1n",
+  "engines": {
+    "vscode": "*"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Blood Moon",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Blood Moon-color-theme.json"
+      }
+    ]
+  },
+  "license": "MIT"
+}
