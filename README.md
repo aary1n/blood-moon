@@ -1,10 +1,10 @@
-# Blood Moon - VS Code Theme
+# Blood Moon - VSCode Theme
 
 Blood Moon is a dark, warm theme inspired by a TweakCN `index.css` palette, adapted for VS Code.
 
 ## Install (Development)
 
-1. Open this folder in VS Code.
+1. Open this folder in VSCode.
 2. Press F5 (Run Extension) to launch a new Extension Development Host.
 3. In the new window, open the Command Palette and choose: `Preferences: Color Theme` → `Blood Moon`.
 
