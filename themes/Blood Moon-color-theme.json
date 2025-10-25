@@ -132,12 +132,12 @@
       }
     },
     {
-      "name": "Markdown — prose text (safe)",
+      "name": "Markdown - prose text (safe)",
       "scope": ["meta.paragraph.markdown"],
       "settings": { "foreground": "#D0CBD6" }
     },
     {
-      "name": "Markdown -- blockquotes & list markers",
+      "name": "Markdown - blockquotes & list markers",
       "scope": [
         "markup.quote",
         "punctuation.definition.quote.begin.markdown",
@@ -147,7 +147,7 @@
       "settings": { "foreground": "#A493A7" }
     },
     {
-      "name": "Markdown — inline code",
+      "name": "Markdown - inline code",
       "scope": [
         "markup.inline.raw.string.markdown"
       ],
